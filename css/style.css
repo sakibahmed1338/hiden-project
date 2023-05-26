@@ -1,0 +1,622 @@
+/* =================================================reset css start========================================== */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+ul,ol
+{
+    list-style: none;
+}
+/* =================================================reset css end========================================== */
+/* ===================================================common css start=========================================== */
+.container
+{
+    width: 1320px;
+    margin: 0 auto;
+}
+.flex
+{
+    display: flex;
+}
+nav
+{
+    width: 100%;
+    position: absolute;
+}
+/* ===================================================common css end=========================================== */
+/* ====================================================nav section css start======================================= */
+
+.justify_content
+{
+    justify-content: space-between;
+    align-items: center;
+}
+.margin_top
+{
+    margin-top: 57px;
+}
+.logo
+{
+    width: 166.2px;
+    height: 42px;
+}
+.menu ul
+{
+    display: flex;
+    column-gap: 60px;
+}
+.menu ul li a
+{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #fff;
+    transition: .4s;
+}
+.menu ul li a:hover
+{
+    color: #4756DF;
+}
+.search_bar a 
+{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+/* ====================================================nav section css end======================================= */
+/* ====================================================hero section css start======================================= */
+#home 
+{
+
+    background: url(../img/hero-background.png) no-repeat center;
+    background-size: cover;
+    padding-top: 315px;
+    z-index: -1; 
+
+}
+.home_bg
+{
+    width: 100%;
+    height: 877px;
+    background: rgba(0, 0, 0, 0.426);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+
+
+}
+
+.home_flex 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.z_index
+{
+    z-index: 999;
+} 
+.content
+{
+    text-align: center;
+}
+.content h1
+{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+    text-transform: capitalize;
+    width: 1000px;
+}
+.content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 26px;
+    width: 621px;
+    margin: 51px auto;
+
+}
+.home_btn
+{
+    margin-top: 40px;
+}
+.home_btn a
+{
+    padding: 15px 42px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #6A4DF4;
+    color: #ffffff;
+    line-height: 26px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.home_icons
+{
+    margin-top: 99px;
+    margin-bottom: 53px;
+}
+.home_icons i
+{
+    font-size: 16px;
+    color: #6A4DF4;
+
+    border: 5px solid #fff;
+    border-radius: 50%;
+    box-sizing: content-box;
+    z-index: 1;
+
+
+}
+
+
+/* ====================================================hero section css end======================================= */
+/* ====================================================about section css start======================================= */
+#about .margin_top
+{
+    margin-top: 171px;
+    margin-bottom: 149px;
+}
+.about_background
+{
+    background-color: #E0FFF9;
+    border: none;
+    border-radius: 20px;
+    padding: 85px 50px;
+}
+.column_gap
+{
+    column-gap: 110px;
+}
+.about_content h4
+{
+    font-size: 25px;
+    font-weight: 500;
+    color: #6A4DF4;
+    text-transform: capitalize;
+    line-height: 120%;
+}
+.about_content h2
+{
+    font-size: 35px;
+    font-weight: 600px;
+    color: #151515;
+    text-transform: capitalize;
+    width: 387px;
+    margin-top: 15px;
+}
+.about_item h2
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: #151515;
+}
+.about_item p
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #737373;
+    text-transform: capitalize;
+    width: 184px;
+}
+
+/* ====================================================about section css end======================================= */
+/* ====================================================service section css start======================================= */
+.header_content h2
+{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: capitalize;
+    text-align: center;
+}
+.header_content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    width: 609px;
+    margin: 0 auto;
+    text-align: center;
+}
+.service_one
+{
+    display: flex;
+    margin-top: 50px;
+
+}
+.item
+{
+    width: 424px;
+    height: 428px;
+    text-align: center;
+    margin: 24px 0;
+    transition: .4s;
+}
+.item:hover
+{
+    background: #fff;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .25);
+    border-radius: 20px;
+}
+.item .img 
+{
+    margin-top: 80px;
+}
+.item .content h2
+{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: capitalize;
+    margin-top: 40px;
+
+}
+.item .content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    width: 326px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.service_two
+{
+    display: flex;
+}
+/* ====================================================service section css end======================================= */
+/* ==================================================== Careers css start======================================= */
+.careers_header_content h2
+{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 253px;
+}
+.careers_header_content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    width: 609px;
+    margin: 0 auto;
+    text-align: center;
+}
+.careers_one
+{
+    display: flex;
+    margin-top: 50px;
+    column-gap: 24px;
+
+}
+.careers_item
+{
+    width: 424px;
+    height: 457px;
+    text-align: center;
+    margin: 24px 0;
+    transition: .4s;
+}
+
+.careers_item .careers_content h2
+{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: capitalize;
+    margin-top: 30px;
+
+}
+.careers_item .careers_content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    width: 326px;
+    line-height: 26px;
+    margin: 5px auto;
+}
+.careers_two
+{
+    display: flex;
+    column-gap: 24px;
+}
+/* ====================================================Careers section css end======================================= */
+/* ====================================================agence section css start======================================= */
+.agenc_flex
+{
+    display: flex;
+    align-items: center;
+    column-gap: 103px;
+}
+.agenc_header_content
+{
+    margin-bottom: 130px;
+    margin-top: 300px;
+}
+.agenc_header_content h2
+{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: capitalize;
+    text-align: center;
+    width: 518px;
+    margin: 0 auto;
+}
+.agenc_header_content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    text-align: center;
+    width: 820px;
+    margin: 0 auto;
+}
+.agenc_item
+{
+    margin-bottom: 80px;
+}
+.agenc_content h2
+{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: capitalize;
+
+}
+.agenc_content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    margin-top: 10px;
+}
+
+/* ====================================================agence section css end======================================= */
+/* ====================================================testmonial section css start======================================= */
+.margin
+{
+    position: relative;
+    margin-top: 106px;
+}
+.testmonial_content 
+{
+    margin-bottom: 130px;
+}
+.icon
+{
+    position: absolute;
+    top: 471px;
+    left: -10px;
+}
+.icon_two
+{
+    position: absolute;
+    top: 471px;
+    right: 0;
+}
+.testmonial_content h2
+{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: capitalize;
+    text-align: center;
+}
+.testmonial_content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 620px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testmonial_flex 
+{
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    
+}
+.testmonial_item
+{
+    padding: 54px 58px 54px 59px;
+}
+
+.testmonial_item p
+{
+    font-size: 16px;
+    font-weight: 400;
+    width: 307px;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* .star
+{
+    display: block;
+    margin-top: 20px;
+} */
+.client
+{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.client a
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    
+}
+.client a span
+{
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    line-height: 120%;
+    color: #151515;
+    display: block;
+}
+/* ====================================================testmonial section css end======================================= */
+/* ====================================================contact section css start======================================= */
+.contact_content
+{
+    width: 40%;
+}
+.align_item
+{
+    align-items: center;
+    margin-top: 227px;
+    margin-bottom: 150px;
+}
+.contact_content h2
+{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: capitalize;
+    width: 470px;
+
+}
+.contact_content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    width: 514px;
+    margin-top: 10px;
+}
+.form
+{
+    width: 60%;
+    padding: 61px 41px;
+    
+}
+.form h2
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* .form .input_box
+{
+    text-align: center;
+
+} */
+.form .input_box input
+{
+    width: 450px;
+    height: 64px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left:10px ;
+    margin-left : 18%;
+    margin-top: 10px ;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.form .input_box input::placeholder
+{
+    color: #D0D0D0;
+
+    margin-top: 10px ;
+    font-size: 16px;
+    font-weight: 400;
+}
+.form .input_box label
+{
+    display: block;
+    margin-left: 18%;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #151515;
+    line-height: 26px;
+}
+
+.button_box
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.button_box button
+{
+    padding: 19px 147px;
+    background-color: #6A4DF4;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+/* ====================================================contact section css end======================================= */
+/* ====================================================footer section css start======================================= */
+.footer_gap
+{
+    column-gap: 131px;
+    margin-top: 150px;
+    margin-bottom: 182px;
+}
+.footer_content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    width: 356px;
+    margin-top: 30px;
+}
+.footer_item h4
+{
+    margin-bottom: 40px;
+}
+.footer_item ul li 
+{
+    margin-top: 10px;
+}
+.footer_item ul li a
+{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #737373;
+}
+/* ====================================================footer section css end======================================= */
+
